@@ -1,7 +1,7 @@
 #include "linked_list.h"
 #include <stdio.h>
 
-void imprimirLista(List *l) {
+void imprimirLista(List *l) { 
     int i;
     for (i = 0; i < listSize(l); i++)
         printf("%d ", listGet(l, i));
